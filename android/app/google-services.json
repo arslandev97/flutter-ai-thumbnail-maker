@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187453366286",
+    "project_id": "ai-thumbnail-maker-f5d35",
+    "storage_bucket": "ai-thumbnail-maker-f5d35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187453366286:android:55b150cc63050ddacb9c5f",
+        "android_client_info": {
+          "package_name": "com.example.ai_thumbnail_maker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_mIyHuO6k0xc0JU6CdojUoVijXGXsKOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
