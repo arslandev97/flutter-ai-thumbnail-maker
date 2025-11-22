@@ -78,14 +78,6 @@ A powerful Flutter application that leverages Google's Vertex AI (Imagen 2) and 
     flutter run
     ```
 
-## 📱 Screenshots
-
-|                            Login Screen                            |                           Home Screen                            |                                 Settings                                 |
-| :----------------------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------------------: |
-| <img src="assets/screenshots/login.png" width="200" alt="Login" /> | <img src="assets/screenshots/home.png" width="200" alt="Home" /> | <img src="assets/screenshots/settings.png" width="200" alt="Settings" /> |
-
-_(Note: Add actual screenshots to `assets/screenshots/` folder)_
-
 ## 🤝 Contribution
 
 Contributions are welcome! Please feel free to submit a Pull Request.
