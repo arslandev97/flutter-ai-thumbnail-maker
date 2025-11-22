@@ -94,4 +94,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by [Arslan](https://github.com/arslandev97)
+Made with ❤️ by [Muhammad Arslan](https://github.com/arslandev97)
