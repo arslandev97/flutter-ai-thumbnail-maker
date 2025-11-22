@@ -2,8 +2,6 @@
 
 A powerful Flutter application that leverages Google's Vertex AI (Imagen 2) and Gemini API to generate viral YouTube thumbnails instantly. Create stunning, high-quality thumbnails from simple text prompts.
 
-![App Banner](assets/images/icon.png)
-
 ## ✨ Features
 
 - **🤖 AI-Powered Generation:** Generate high-quality images using Google's state-of-the-art Imagen 2 model.
@@ -18,6 +16,16 @@ A powerful Flutter application that leverages Google's Vertex AI (Imagen 2) and 
   - Smooth animations and transitions.
   - Custom "Italianno" fonts and "Outfit" typography.
 - **💾 History & Downloads:** Save your generated thumbnails and download them directly to your gallery.
+
+## 📱 Screenshots
+
+|                                                     Login & Auth                                                     |                                                      Home & Generation                                                       |
+| :------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------: |
+| <img src="assets/screenshots/01_login.png" width="200" /> <img src="assets/screenshots/02_signup.png" width="200" /> | <img src="assets/screenshots/03_home.png" width="200" /> <img src="assets/screenshots/04_generated_image.png" width="200" /> |
+
+|                                                Results & Ads                                                 |                                                        Settings                                                         |
+| :----------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="assets/screenshots/05_.png" width="200" /> <img src="assets/screenshots/06_ads.png" width="200" /> | <img src="assets/screenshots/07_adplay.png" width="200" /> <img src="assets/screenshots/08_settings.png" width="200" /> |
 
 ## 🛠️ Tech Stack
 
