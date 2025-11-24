@@ -4,6 +4,8 @@ import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
 /// Example:
@@ -40,8 +42,8 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDruSCpjUa-zzdjg_CFAWZLrPWyCBXo6ko',
+  static FirebaseOptions web = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY_WEB']!,
     appId: '1:187453366286:web:1ce69e26b42c56c5cb9c5f',
     messagingSenderId: '187453366286',
     projectId: 'ai-thumbnail-maker-f5d35',
@@ -50,16 +52,16 @@ class DefaultFirebaseOptions {
     measurementId: 'G-H5MBSJ3X2Z',
   );
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB_mIyHuO6k0xc0JU6CdojUoVijXGXsKOg',
+  static FirebaseOptions android = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY_ANDROID']!,
     appId: '1:187453366286:android:55b150cc63050ddacb9c5f',
     messagingSenderId: '187453366286',
     projectId: 'ai-thumbnail-maker-f5d35',
     storageBucket: 'ai-thumbnail-maker-f5d35.firebasestorage.app',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCkTsgpTzzE4kKiqOzfV9HCpUThdey_AjI',
+  static FirebaseOptions ios = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY_IOS']!,
     appId: '1:187453366286:ios:f612c71d7b1e4925cb9c5f',
     messagingSenderId: '187453366286',
     projectId: 'ai-thumbnail-maker-f5d35',
@@ -67,8 +69,8 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.aiThumbnailMaker',
   );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCkTsgpTzzE4kKiqOzfV9HCpUThdey_AjI',
+  static FirebaseOptions macos = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY_MACOS']!,
     appId: '1:187453366286:ios:f612c71d7b1e4925cb9c5f',
     messagingSenderId: '187453366286',
     projectId: 'ai-thumbnail-maker-f5d35',
@@ -76,8 +78,8 @@ class DefaultFirebaseOptions {
     iosBundleId: 'com.example.aiThumbnailMaker',
   );
 
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDruSCpjUa-zzdjg_CFAWZLrPWyCBXo6ko',
+  static FirebaseOptions windows = FirebaseOptions(
+    apiKey: dotenv.env['FIREBASE_API_KEY_WINDOWS']!,
     appId: '1:187453366286:web:9fdda6a07bb94ba0cb9c5f',
     messagingSenderId: '187453366286',
     projectId: 'ai-thumbnail-maker-f5d35',
